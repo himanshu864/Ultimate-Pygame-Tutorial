@@ -18,16 +18,16 @@ ground_surface = pygame.image.load("graphics/ground.png").convert()
 player_stand = pygame.image.load("graphics/Player/player_stand.png").convert_alpha()
 player_walk_frames = [
     pygame.image.load("graphics/Player/player_walk_1.png").convert_alpha(),
-    pygame.image.load("graphics/Player/player_walk_2.png").convert_alpha()
+    pygame.image.load("graphics/Player/player_walk_2.png").convert_alpha(),
 ]
 snail_frames = [
     pygame.image.load("graphics/Snail/snail1.png").convert_alpha(),
-    pygame.image.load("graphics/Snail/snail2.png").convert_alpha()
+    pygame.image.load("graphics/Snail/snail2.png").convert_alpha(),
 ]
 
 # Load text
 font = pygame.font.Font("font/Pixeltype.ttf", 50)
-game_title = font.render("Dark Souls: Prepare to Cry", False, 'Black')
+game_title = font.render("Dark Souls: Prepare to Cry", False, "Black")
 
 # Ground position
 GROUND_Y = 300
@@ -45,8 +45,8 @@ SNAIL_SPEED = 5
 
 # Create Rectangles
 sky_rect = sky_surface.get_rect(topleft=(0, 0))
-player_rect = player_stand.get_rect(bottomleft = (100, GROUND_Y))
-snail_rect = snail_frames[0].get_rect(bottomleft = (WINDOW_WIDTH, GROUND_Y))
+player_rect = player_stand.get_rect(bottomleft=(100, GROUND_Y))
+snail_rect = snail_frames[0].get_rect(bottomleft=(WINDOW_WIDTH, GROUND_Y))
 
 # Game loop
 while True:
@@ -96,4 +96,3 @@ while True:
     # Refresh display at 60 FPS
     pygame.display.update()
     clock.tick(60)
-

@@ -1,5 +1,5 @@
 import pygame
-from sys import exit # closes all code
+from sys import exit  # closes all code
 
 pygame.init()
 
@@ -16,4 +16,3 @@ while True:
     # update everything
     pygame.display.update()
     clock.tick(60)
-
