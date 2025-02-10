@@ -1,3 +1,3 @@
-- [ ] Hold for longer jump
 - [ ] Jump buffer
-- [ ] Scoring system
+- [ ] Sprite Class
+- [ ] Music
