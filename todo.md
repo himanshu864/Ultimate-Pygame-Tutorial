@@ -1,3 +1,1 @@
-- [ ] Jump buffer
-- [ ] Sprite Class
 - [ ] Music

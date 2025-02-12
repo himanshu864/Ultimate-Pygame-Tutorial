@@ -82,7 +82,6 @@ pygame.time.set_timer(obstacle_timer, randint(1200, 1800))  # make random? and i
 
 # Timer to increasing difficulty
 level_timer = pygame.USEREVENT + 2
-
 pygame.time.set_timer(level_timer, 5000)
 
 enemy_list = []  # [[type, rect, speed, index], ...]
